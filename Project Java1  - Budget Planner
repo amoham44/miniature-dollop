@@ -1,0 +1,46 @@
+
+package budget;
+
+public class Budget {
+
+    
+    public static void main(String[] args) {
+    // *******
+    // Project 1
+    // ********
+    //putting the monthly expenses of the each services for student
+   int monthly_rent=625;
+   int monthly_internet_service=27;
+   int monthly_grocerrybill=250;
+   int monthy_fun_allowance=150;
+   // wage/hour  is 10 dollar
+   int perhour_wage=10;
+   //Monthly saving is 100 dolllar 
+   int monthly_save=100;
+   //calculate total expense (add all the monthly expenses)
+   int totalmonth_expense=monthly_rent+monthly_internet_service+ monthly_grocerrybill+monthy_fun_allowance;
+   //calculating number of hours needed for montly saving 100 dollar
+   int TotalExpences=totalmonth_expense+monthly_save;
+   //per week hours work
+   int TotalHours=(TotalExpences)/10;
+   int WeeklyHours=(TotalHours/30)*7;
+     
+   // All the expenses values
+   System.out.println("Hourly Wages : $10");
+   System.out.println("Monthly rent "+ monthly_rent);
+   System.out.println("Monthly Internet Service :"+monthly_internet_service);
+   System.out.println("Monthly grocerry bill :"+ monthly_grocerrybill);
+   System.out.println("Monthy fun allowance :"+monthy_fun_allowance);
+   System.out.println("Total month expense :"+totalmonth_expense);
+   System.out.println("Montly saving :  $ 100");
+   System.out.println("Total working hours needed for stdent : "+TotalHours);
+   
+   //Number of Hours the student  working in a week
+   System.out.println("Number of Hours the student working in a week is :"+WeeklyHours);
+   
+     
+
+   }
+    }
+    
+
